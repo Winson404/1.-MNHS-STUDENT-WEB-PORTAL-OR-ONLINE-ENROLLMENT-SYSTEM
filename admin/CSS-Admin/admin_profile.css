@@ -1,0 +1,53 @@
+	.row {
+		position: relative;
+		margin: auto;
+	}
+	.row .profile div img {
+		height: 150px; 
+		width: 150px; 
+		margin-bottom: 10px; 
+		display: block;
+		margin: auto; 
+		border-radius: 50%;
+	}
+	.row .profile div button {
+		position: relative;
+		left: 50px; 
+		top: -37px; 
+		background-color: #F6FBEB;
+		border: 1px solid #fff;
+		height: 30px; 
+		width: 30px; 
+		border-radius: 50%;
+	}
+	.row .profile div button:hover {
+		opacity: .8;
+	}
+	.row .profile div button i {
+		font-size: 17px; 
+		display: flex; 
+		position: relative; 
+		right: 6px;
+	}
+	.row h6 {
+		position: absolute;
+		right: 0;
+		width: auto;
+		height: auto;
+		padding: 5px;
+		color: #fff;
+	}
+
+	/* FOR ERROR IN FACULTY AGE UPDATE */
+	.row span {
+        color: red; 
+        display: none;
+    }
+    /* END FOR ERROR IN FACULTY AGE UPDATE */
+
+    label {
+      font-weight: bold;
+    }
+    div input, div select {
+      margin-bottom: 10px;
+    }

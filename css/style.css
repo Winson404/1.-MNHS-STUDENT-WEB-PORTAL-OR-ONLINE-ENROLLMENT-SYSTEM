@@ -1,0 +1,175 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*--------------------HEADER STYLE-----------------------*/
+.navbar-style{
+	box-shadow: 0 5px 10px #efefef;
+}
+
+#mnhs-text{
+	color: #404040;
+	top: 1px;
+	font-size: 40px;
+	position: absolute;
+	text-decoration: none;
+	font-family: 'Alfa Slab One';
+	transition: .2s;
+}
+
+#mnhs-text:hover{
+	color: #595959;
+}
+
+.logo{
+	height: 55px;
+	width: 55px;
+	padding: 2px 10px;
+	margin:  0 0 0 -7px;
+}
+
+
+a.btn{
+	font-weight: bold;
+}
+
+.icon-bar{
+	background: darkorange;
+}
+
+	#menuicon ul li a{
+		transition: 0.3s;
+	}
+	#menuicon ul li a:hover{
+		font-size: 18px;		
+	}
+	.shs-link{
+	transition: .3s;
+	}
+	/*--------LOGIN MODAL STYLE---------*/
+	#no-border{
+	  border:none;
+	}
+
+	#modal-body{
+	  padding: 0 27px 25px;
+	}
+
+	#modal-body p{
+	  font-size: 13px;
+	}
+
+	#modal-body img {
+	  height: 100px;
+	  display: block;
+	  margin-right: auto;
+	  margin-left: auto;
+	}
+	
+	.form-group input{
+	  margin-bottom: 10px;
+	  background-color: white;
+	  color: black;
+	  font-size: 15px;
+	}
+
+	#login_button {
+	  font-size: 15px;
+	}
+
+	#link{
+	  font-size: 13px;
+	  color:  #005ce6;
+	  /*text-decoration: none;*/
+	}
+
+	#link:hover{
+	  color: #003d99;
+
+	}
+
+	.alert {
+		margin: -5px 7px;
+		float: right;
+        width: 25%;
+        font-size: 15px;
+        text-align: center;
+        box-shadow: 4px 5px 10px #efefef;
+        color: white;
+        border-radius: 4px;
+    }
+	/*------------------SESSION BACKGROUND COLORS----------------*/
+    #success{
+    	background-color: #00b300;
+    }
+    #danger{
+    	background-color: #ff0e0e;
+    }
+    #exists{
+    	background-color:  #FFCC00;
+    }
+	/*--------END LOGIN MODAL STYLE---------*/
+
+
+
+
+
+
+
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+
+	  .container {
+	  	overflow: hidden;
+	  }
+	  #menuicon ul li a{
+		text-align: left;
+	}
+
+	#logincontainer{
+		width: 300px;
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+	}
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) { 
+
+     .container {
+	  	overflow: hidden;
+	  }
+	  #menuicon ul li a{
+		text-align: left;
+	}
+
+	#logincontainer{
+		width: 300px;
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+	}
+}
+
+@media screen and (min-width: 769px) and (max-width: 960px) {
+
+     .container {
+	  	overflow: hidden;
+	  }
+	  #menuicon ul li a{
+		text-align: left;
+	}
+
+	#logincontainer{
+		width: 300px;
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+	}
+}
+
+

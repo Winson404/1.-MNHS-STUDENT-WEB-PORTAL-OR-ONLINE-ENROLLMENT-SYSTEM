@@ -1,0 +1,132 @@
+
+/*---------------------------------------------SIDEBAR STYLE---------------------------------------------*/
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .sidebar {
+    margin: 0;
+    padding: 15px 10px;
+    width: 250px;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    color: #fff;
+  }
+
+  .sidebar .img-container {
+    position: relative;
+  }
+
+  .sidebar .img-container span{
+    z-index: 1; 
+    position: absolute; 
+    bottom: 0; 
+    right: 10px; 
+    padding: 5px;
+  }
+
+  .sidebar span i.camera:hover {
+    opacity: .5;
+  }
+
+  .sidebar img {
+    height: 100px; 
+    width: 100px; 
+    border-radius: 50%;
+    border: 1px solid #F5F5F5;
+    display: block;
+    margin: auto;
+  }
+
+  .sidebar img:hover {
+    opacity: .8;
+  }
+
+  .sidebar a {
+    margin: 5px;
+    display: block;
+    padding: 8px 15px;
+    text-decoration: none;
+    color: #fff;
+    transition: .7s;
+  }
+
+  .sidebar a.profile {
+    padding-top: 23px;
+    background-color: #181a1b;
+    border-radius: 6px;
+  }
+
+  .sidebar a:hover:not(.profile){
+    padding-left: 30px;
+  }
+   
+  .sidebar a.active {
+    border-radius: 6px;
+  }
+
+  .sidebar a:hover:not(.active, .profile) {
+    background-color: #6c757d;
+    border-radius: 6px;
+  }
+
+  .sidebar button {
+    font-size: 16px;
+    color: #fff;
+    transition: .5s;
+  }
+
+  /* Style the sidenav links and the dropdown button */
+  .dropdown-btn {
+    padding: 6px 8px 6px 20px;
+    text-decoration: none;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+  }
+
+  .dropdown-btn:hover {
+    background-color: #6c757d;
+    border-radius: 6px;
+  }
+
+  /* Optional: Style the caret down icon */
+  .dropdown-btn .dropdown-icon {
+    float: right;
+    padding-right: 8px;
+  }
+
+  /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+  .dropdown-container {
+    display: none;
+    padding-left: 12px;
+  }
+
+  #door {
+    float: right;
+  }
+  
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {
+      float: left;
+    }
+    
+  }
+
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  }
+/*---------------------------------------------END SIDEBAR STYLE---------------------------------------------*/

@@ -1,0 +1,59 @@
+#container-table{
+border: 1px solid #d9d9d9;
+box-shadow: 1px 1px 1px #cccccc;
+margin-top:70px; 
+padding: 30px 20px 20px 20px;
+border-radius: 3px;
+margin-bottom: 20px;
+}
+
+#container-table h3{
+margin: -10px 0 -15px 0;
+background-color: #66757F; 
+color: white; 
+padding: 22px;
+}
+
+.button-container{
+padding: 5px;
+background-color: #F7F7F7;
+margin: -15px 0 10px;
+}
+
+#btn-create{
+padding: 5px;
+border-radius: 3px;
+font-size: 16px;
+}
+
+
+/*---------------ADD MODAL-----------------*/
+#add_modalheader{
+background-color: #0047b3;
+}
+
+/*---------------UPDATE MODAL--------------*/
+#update_modalheader{
+background-color:#53c653;
+}
+
+/*---------------DELETE MODAL--------------*/
+#delete_modalheader{
+background-color: #e6ac00;
+}
+
+/*---------------VIEW PROFILE MODAL--------------*/
+#view_modalheader{
+background-color: #3385ff;
+}
+
+/*---------------ADD, UPDATE, DELETE LABEL---------------*/
+#add_modallabel, #delete_modallabel, #update_modallabel, #view_modallabel{
+color: white;
+}
+
+/*FOR ALL BUTTONS*/
+#btn_no-outline, #btn-create{
+    outline: none;
+    border: none;
+}

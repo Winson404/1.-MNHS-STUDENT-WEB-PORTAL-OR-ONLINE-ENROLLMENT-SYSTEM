@@ -1,0 +1,44 @@
+.content .container-fluid .row .edit_student_enrollment, .content .container-fluid .row .confirm_student_enrollment {
+   background-color: #F5F5F5; 
+   padding: 0;
+}
+.content .container-fluid .row .edit_student_enrollment h3, .content .container-fluid .row .confirm_student_enrollment h3 {
+  color: #fff;
+}
+
+/* FOR UPDATING STUDENT ENROLLMENT (IMAGE)*/
+.content .container-fluid .row .edit_student_enrollment img, .content .container-fluid .row .confirm_student_enrollment img {
+  border-radius: 50%;
+  width: 150px; 
+  height: 150px; 
+  display: block;
+  margin: auto; 
+  border: 5px solid #006622;
+}
+/* END FOR UPDATING STUDENT ENROLLMENT (IMAGE)*/
+/**************************************/
+/* FOR CONFIRMING STUDENT ENROLLMENT (IMAGE)*/
+.content .container-fluid .row .confirm_student_enrollment img {
+  border: 5px solid #007bff;
+}
+/* END FOR CONFIRMING STUDENT ENROLLMENT (IMAGE)*/
+
+.content .container-fluid .row .profile {
+  background-color: #F5F5F5;
+}
+.content .container-fluid .row .profile a{
+  float: right; 
+  margin-left: 5px;
+}
+.content .container-fluid .row .profile button{
+  float: right; 
+}
+label {
+  font-weight: bold;
+}
+div input, div select {
+  margin-bottom: 10px;
+}
+
+       
+        

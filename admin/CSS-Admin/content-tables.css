@@ -1,0 +1,78 @@
+    div.content {
+      margin-left: 245px;
+      padding: 5px 5px 5px 10px;
+    }
+    div.container-fluid {
+      border:1px solid #ECECEC;
+    }
+    .table-responsive {
+      background-color: #fff
+    }
+    .table-responsive h6 {
+      color: #fff;
+      height: auto;
+      padding: 10px;
+      width: auto;
+      float: right;
+    }
+    .table-responsive table {
+      border-color: 1px solid black;
+      background-color: red;
+    }
+    .table-responsive table thead {
+      background-color: #343a40;
+      color: #fff;
+    }
+    .table-responsive table tbody td #view {
+        color: #fff;
+    }
+
+    /*MODAL STYLES*/
+    .modal-header h4 {
+      color: #fff;
+    }
+    /*END MODAL STYLES*/
+    @media screen and (max-width: 700px) {
+      
+      div.content {
+        margin-left: 0;
+      }
+    }
+
+    @media screen and (max-width: 400px) {
+      
+    }
+
+
+    /*---------------------------------------------MODALS STYLE---------------------------------------------*/
+
+    /* FOR FACULTY AND STUDENTS IMAGE STYLE */
+    .modal-body .person {
+       border-radius: 50%;
+       width: 150px; 
+       height: 150px; 
+       display: block;
+       margin: auto; 
+       border: 5px solid #006622;
+    }
+
+    .modal-body .view_photo {
+       width: 150px; 
+       height: 150px; 
+       display: block;
+       margin: auto; 
+       border: 5px solid #00b8e6;
+       border-radius: 50%;
+    }
+    
+    
+    .modal-body  button {
+       position: relative; 
+       display: block;
+       margin: auto;
+    }
+    /*---------------------------------------------END MODALS STYLE---------------------------------------------*/
+
+    
+
+    
